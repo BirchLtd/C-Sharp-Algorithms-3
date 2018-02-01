@@ -1,0 +1,7 @@
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\bin\Debug\CSharpStructuresAlgorithms.exe.config
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\bin\Debug\CSharpStructuresAlgorithms.exe
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\bin\Debug\CSharpStructuresAlgorithms.pdb
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\obj\Debug\CSharpStructuresAlgorithms.csprojResolveAssemblyReference.cache
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\obj\Debug\CSharpStructuresAlgorithms.csproj.CoreCompileInputs.cache
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\obj\Debug\CSharpStructuresAlgorithms.exe
+E:\Projects\CSharpStructuresAlgorithms\CSharpStructuresAlgorithms\obj\Debug\CSharpStructuresAlgorithms.pdb
