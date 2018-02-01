@@ -9,6 +9,9 @@ namespace CSharpStructuresAlgorithms
 {
     class Program
     {
-
+        public static void Main(string[] args)
+        {
+            // For now, run things from other classes here to test.
+        }
     }
 }
