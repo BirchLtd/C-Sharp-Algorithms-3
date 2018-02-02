@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q2_CheckPermutation.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q1_IsUnique.cs" />
+    <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q3_URLify.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

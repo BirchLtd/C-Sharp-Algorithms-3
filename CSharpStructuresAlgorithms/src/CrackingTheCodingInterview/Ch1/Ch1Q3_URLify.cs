@@ -18,8 +18,9 @@ namespace Chapter1
     {
         // SOLUTION 1: Change it in-place in the string
         // WHY: Saves space to do it with one string
-        public void URLifySolution1(char[] str, int length)
+        public string URLifySolution1(string s, int length)
         {
+            char[] str = s.ToCharArray();
             int spaceCount = 0;
             int newLength;
             
@@ -31,37 +32,52 @@ namespace Chapter1
                 }
             }
 
-            newLength = length + spaceCount * 2;    // Space
-            str[newLength] = '\0';
-            for (int i = length - 1; i >= 0; i--)
+            newLength = length + spaceCount * 2;    // There is already 1 space for whitespace, add 2 more (" " (1) -> "%20" (3))
+            str[newLength] = '\0';                  // Empty symbol at the end of string
+            for (int i = length - 1; i >= 0; i--)   // iterate backwards through string
             {
-                if (str[i] == ' ')
+                if (str[i] == ' ')                  // if a white space is found, place %20 in the space
                 {
                     str[newLength - 1] = '0';
                     str[newLength - 2] = '2';
                     str[newLength - 3] = '%';
-                    newLength = newLength - 3;
+                    newLength = newLength - 3;      // reduce newlength by 3
                 }
                 else
                 {
-                    str[newLength - 1] = str[i];
+                    str[newLength - 1] = str[i];    // if non-whitespace char is found, add to string, reduce newLength by 1
                     newLength = newLength - 1;
                 }
             }
+            return str.ToString();  
         }
 
         // SOLUTION 2: Use StringBuilder
-        // WHY: If additional data structures are allowed, this is simple solution
+        // WHY: If additional data structures are allowed, this is simple solution, but uses up more memory
 
-        public void URLifySolution2()
+        public string URLifySolution2(string str)
         {
+            StringBuilder strHelper = new StringBuilder();
 
+            for (int i = 0; i < str.Length; i++)
+            {
+                if(str[i] == ' ')
+                {
+                    strHelper.Append("%20");
+                }
+                else
+                {
+                    strHelper.Append(str[i]);
+                }
+            }
+
+            return strHelper.ToString();
         }
 
         // Run Tests
         public void Run()
         {
-
+            // TO DO: WRITE A TEST CASE HERE
         }
     }
 }
