@@ -23,12 +23,12 @@ namespace Chapter1
 
             foreach (var item in str)
             {
-                if (myHashSet.Contains(item))   // Found the item in the HashSet
+                if (myHashSet.Contains(item))   // If found item in HashSet, return false
                 {
                     return false;
                 }
 
-                myHashSet.Add(item);
+                myHashSet.Add(item);            // otherwise, add item to HashSet
             }
             return true;
         }

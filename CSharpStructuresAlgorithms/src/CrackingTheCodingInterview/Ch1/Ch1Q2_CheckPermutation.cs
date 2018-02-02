@@ -15,9 +15,8 @@ namespace Chapter1
 {
     class C1Q2_CheckPermutation
     {
-        // SOLUTION 1: Sort the strings
+        // SOLUTION 1: Sort the strings **BOOK_ANSWER**
         // WHY: Sorted strings will be in the same order and easily compared
-
         public string SortString (string s)
         {
             char[] content = s.ToCharArray();       // string to char Array, for easy sorting
