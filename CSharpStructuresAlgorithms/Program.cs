@@ -12,8 +12,8 @@ namespace Chapter1
         public static void Main(string[] args)
         {
             // For now, run things from other classes here to test.
-            //Ch1Q1_IsUnique newClass = new Ch1Q1_IsUnique();
-           // newClass.Run();
+            C1Q2_CheckPermutation newClass = new C1Q2_CheckPermutation();
+            newClass.Run();
         }
     }
 }
