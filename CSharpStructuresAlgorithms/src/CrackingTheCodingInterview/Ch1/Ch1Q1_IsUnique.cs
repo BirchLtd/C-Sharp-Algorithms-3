@@ -4,13 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/* -----------------------------------------------------------------------------------
- * QUESTION: 
- * -----------------------------------------------------------------------------------
- * IS UNIQUE: Implement an algorithm to determine if a string has all unique characters.  
- * What if you cannot use additional data structures?
- * -----------------------------------------------------------------------------------*/
-
 namespace Chapter1
 {
     class Ch1Q1_IsUnique

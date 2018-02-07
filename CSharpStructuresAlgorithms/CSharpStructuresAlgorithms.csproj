@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,9 @@
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q2_CheckPermutation.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q1_IsUnique.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q3_URLify.cs" />
+    <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q4_PalindromePermutation.cs" />
+    <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q5_OneAway.cs" />
+    <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q6_StringCompression.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

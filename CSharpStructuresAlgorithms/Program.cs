@@ -12,7 +12,7 @@ namespace Chapter1
         public static void Main(string[] args)
         {
             // For now, run things from other classes here to test.
-            Ch1Q3_URLify newClass = new Ch1Q3_URLify();
+            Ch1Q4_PalindromePermutation newClass = new Ch1Q4_PalindromePermutation();
             newClass.Run();
         }
     }
