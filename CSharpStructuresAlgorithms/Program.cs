@@ -12,7 +12,7 @@ namespace Chapter1
         public static void Main(string[] args)
         {
             // For now, run things from other classes here to test.
-            Ch1Q4_PalindromePermutation newClass = new Ch1Q4_PalindromePermutation();
+            Ch1Q6_StringCompression newClass = new Ch1Q6_StringCompression();
             newClass.Run();
         }
     }
