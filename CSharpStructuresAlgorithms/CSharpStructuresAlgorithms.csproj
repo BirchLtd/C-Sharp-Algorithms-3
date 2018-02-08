@@ -51,6 +51,7 @@
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q4_PalindromePermutation.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q5_OneAway.cs" />
     <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q6_StringCompression.cs" />
+    <Compile Include="src\CrackingTheCodingInterview\Ch1\Ch1Q7_RotateMatrix.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
